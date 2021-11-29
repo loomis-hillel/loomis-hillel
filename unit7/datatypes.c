@@ -18,11 +18,25 @@ int main(void) {
     printf("\tmax   :\t%d\n", CHAR_MAX);
     printBar(48);
 
+    printf("unsigned char:\n");
+    printBar(48);
+    printf("\tbytes :\t%lu\n", sizeof(unsigned char));
+    printf("\tmin   :\t%u\n", 0);
+    printf("\tmax   :\t%u\n", UCHAR_MAX);
+    printBar(48);
+
     printf("short:\n");
     printBar(48);
     printf("\tbytes :\t%lu\n", sizeof(short));
     printf("\tmin   :\t%d\n", SHRT_MIN);
     printf("\tmax   :\t%d\n", SHRT_MAX);
+    printBar(48);
+
+    printf("unsigned short:\n");
+    printBar(48);
+    printf("\tbytes :\t%lu\n", sizeof(unsigned short));
+    printf("\tmin   :\t%u\n", 0);
+    printf("\tmax   :\t%u\n", USHRT_MAX);
     printBar(48);
 
     printf("int:\n");
@@ -46,7 +60,7 @@ int main(void) {
     printf("\tmax   :\t%li\n", LONG_MAX);
     printBar(48);
 
-    printf("long:\n");
+    printf("unsigned long:\n");
     printBar(48);
     printf("\tbytes :\t%lu\n", sizeof(unsigned long));
     printf("\tmin   :\t%u\n", 0);
