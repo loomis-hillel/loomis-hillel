@@ -8,6 +8,9 @@
  * each coin) to return to the customer. This assumes
  * that the only currency available for change is quarters,
  * dimes, nickels, and pennies.
+ * 
+ * Write an algorithm here
+ * 
  * Author: your name here
  */
 int main(void) {
