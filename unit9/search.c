@@ -29,7 +29,7 @@ int main ( void ) {
 
     if ( search == 1 ) {
         loc = linear_search (target, pets, size);
-    } else if ( search == 1 ) {
+    } else if ( search == 2 ) {
         loc = linear_search_opt (target, pets, size);
     } else {
         loc = binary_search (target, pets, size);
@@ -67,7 +67,7 @@ int linear_search ( string target, string array [], int size ) {
 int linear_search_opt ( string target, string array [], int size ) {
 
     int loc = -1;
-    for ( int i=0; i<size; i++ ) {
+    for ( int i=0; i<size && loc<0; i++ ) {
         if ( strcmp( target, array[i]) == 0 ) {
             loc = i;
         }
