@@ -87,15 +87,15 @@ int binary_search ( string target, string array [], int size ) {
     int loc = -1;
     int left = 0;
     int right = size;
-    int middle;
+    int middle = 0; // given a value to silence warnings
 
     while ( left < right && loc < 0 ) {
         // Calculate the middle value.
-        
+
         // Determine the comparison value (greater than, less than, or equal)
-        
+
         // Use the comparison value to calculate a range (left/right) or get the index.
-        
+
         // Leave this at the bottom
         if (VERBOSE) printf ( "%s\n", array[middle] );
     }
